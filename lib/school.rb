@@ -20,11 +20,20 @@ class School
     roster[level]
   end
 
+  # def sort
+  #   # binding.pry
+  #   roster.sort_by { |level, student| level }
+  #   # roster
+  # end
+
   def sort
-    # binding.pry
-    roster.sort_by { |level, student| level }
-    # roster
+    nu_hash = {}
+    roster.each do |x, y|
+      nu_hash[x] = y.sort
+    end
+    nu_hash
   end
+
 end
 
 school = School.new("Bayside High School")
