@@ -23,7 +23,7 @@ class School
   def sort
     # binding.pry
     roster.sort_by { |level, student| level[1]<=>student[1] }
-    roster
+    # roster
   end
 end
 
