@@ -20,20 +20,18 @@ class School
     roster[level]
   end
 
-  # def sort
-  #   nu_hash = {}
-  #   roster.each do |x, y|
-  #     nu_hash[x] = y.sort
-  #   end
-  #   nu_hash
-  # end
-
-
   def sort
-    # binding.pry
-    roster.each.sort_by { |level, student| level }
-    # binding.pry
+    nu_hash = {}
+    roster.each do |x, y|
+      nu_hash[x] = y.sort
+    end
+    nu_hash
   end
+
+
+  # def sort
+  #   roster.sort_by { |level, student| level }
+  # end
 
 end
 
