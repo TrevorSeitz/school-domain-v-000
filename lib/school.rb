@@ -10,7 +10,7 @@ class School
 
     def initialize(student)
       @student = student
-      roster.push(student) unless roster.include?(student)
+      # roster.push(student) unless roster.include?(student)
     end
 
 end
