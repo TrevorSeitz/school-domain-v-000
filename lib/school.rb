@@ -21,7 +21,7 @@ class School
   end
 
   def sort
-    roster.sort_by { |student, level| level }
+    roster.sort_by { |student, level| level[:student] }
     roster
   end
 end
