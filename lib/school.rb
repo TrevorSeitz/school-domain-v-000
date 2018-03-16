@@ -31,7 +31,7 @@ class School
 
   def sort
     # binding.pry
-    roster.sort_by { |level, student| level }
+    roster.each.sort_by { |level, student| level }
     # binding.pry
   end
 
