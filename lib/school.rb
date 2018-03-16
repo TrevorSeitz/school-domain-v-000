@@ -9,11 +9,15 @@ class School
   end
 
 
-  def add_student(student, grade)
+  def add_student(student, level)
       # if roster[grade] is undefined - define it with an empty array
-    roster[grade] ||= []
+    roster[level] ||= []
       # add student to that array
-    roster[grade] << student
+    roster[level] << student
+  end
+
+  def grade(level)
+    roster[level]
   end
 
 end
