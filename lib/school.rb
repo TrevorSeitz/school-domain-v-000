@@ -5,9 +5,14 @@ class School
 
   def initialize(school_name)
     @school_name = school_name
+      roster = {}
   end
 
-  roster = {}
+    def initialize(student)
+      @student = student
+      roster.push(student) unless roster.include?(student)
+    end
+
 end
 
 school = School.new("Bayside High School")
