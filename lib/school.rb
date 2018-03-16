@@ -7,14 +7,10 @@ class School
     @school_name = school_name
     @roster = {}
   end
-  # def roster
-  #   @roster = {}
-  # end
+
 
   def add_student(student, grade)
-    # @student = student
-    roster[student] <<  grade
-    # roster.push(@student) unless roster.include?(@student)
+      roster[grade] << student
   end
 
 end
