@@ -17,8 +17,16 @@ class School
   end
 
   def grade(level)
-    roster[level]
-  end
+    roster.detect do |x, y|
+      if x == level
+        return y
+      end
+    end
+  end 
+
+  # def grade(level)
+  #   roster[level]
+  # end
 
   def sort
     # binding.pry
