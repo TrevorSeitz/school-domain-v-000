@@ -13,7 +13,7 @@ class School
 
   def add_student(student, grade)
     # @student = student
-    roster.merge! (grade, student)
+    roster[student] =>  grade
     # roster.push(@student) unless roster.include?(@student)
   end
 
