@@ -5,15 +5,16 @@ class School
 
   def initialize(school_name)
     @school_name = school_name
-    def roster
-      roster = {}
-    end
+
+  end
+  def roster
+    roster = {}
   end
 
-    def initialize(student)
-      @student = student
-      # roster.push(student) unless roster.include?(student)
-    end
+  def initialize(student)
+    @student = student
+    # roster.push(student) unless roster.include?(student)
+  end
 
 end
 
