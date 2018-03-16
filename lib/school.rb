@@ -1,10 +1,28 @@
 # code here!
-class School(name)
-  attr_accessor :name
+class School(school_name)
+  attr_accessor :school_name
 
-  def name
-    @name = name    
+  def school_name
+    @school_name = school_name    
   end
 end
 
 school = School.new("Bayside High School")
+
+# class Shoe
+#   attr_accessor :color, :size, :material, :condition
+#   attr_reader :brand
+#
+#   BRANDS = []
+#
+#   def initialize(brand)
+#     @brand = brand
+#     BRANDS.push(brand) unless BRANDS.include?(brand)
+#   end
+#
+#   def cobble
+#     self.condition = "new"
+#     puts "Your shoe is as good as new!"
+#   end
+#
+# end
