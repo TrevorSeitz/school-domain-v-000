@@ -22,7 +22,8 @@ class School
 
   def sort(roster)
     roster.sort_by { |student, level| level }
-
+    roster
+  end
 end
 
 school = School.new("Bayside High School")
