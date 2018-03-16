@@ -1,6 +1,6 @@
 # code here!
-class School
-    attr_accessor 
+class School(name)
+    attr_accessor :name
 end
 
 school = School.new("Bayside High School")
