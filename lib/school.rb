@@ -11,7 +11,7 @@ class School
     roster = {}
   end
 
-  def add_student(student)
+  def add_student(student, roster)
     # @student = student
     roster.push(student) unless roster.include?(student)
   end
