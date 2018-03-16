@@ -22,7 +22,7 @@ class School
 
   def sort
     # binding.pry
-    roster.sort_by { |level, student| [level1, student1] <=> [level2, student2] }
+    roster.sort_by { |level, student| [level[1], student[1]] <=> [level[2], student[2]] }
     # roster
   end
 end
