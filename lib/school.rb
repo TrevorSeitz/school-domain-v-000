@@ -1,9 +1,10 @@
 # code here!
 class School(school_name)
-  attr_accessor :school_name
+  attr_accessor 
+  attr_reader :school_name
 
   def school_name
-    @school_name = school_name    
+    @school_name = school_name
   end
 end
 
