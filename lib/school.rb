@@ -13,7 +13,7 @@ class School
 
   def add_student(roster, student)
     # @student = student
-    roster << student
+    @roster << student
     # roster.push(@student) unless roster.include?(@student)
   end
 
